@@ -5,11 +5,14 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@apollo/server": "^4.7.1",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
     "@hookform/resolvers": "^3.1.0",
+    "@nestjs/apollo": "^11.0.6",
     "@nestjs/common": "^9.1.1",
     "@nestjs/core": "^9.1.1",
+    "@nestjs/graphql": "^11.0.6",
     "@nestjs/platform-express": "^9.1.1",
     "@nx/next": "16.2.2",
     "@swc/helpers": "~0.5.0",
@@ -17,9 +20,12 @@
     "@tippyjs/react": "^4.2.6",
     "axios": "^1.4.0",
     "clsx": "^1.2.1",
+    "express-session": "^1.17.3",
+    "graphql": "^16.6.0",
     "next": "13.4.1",
     "overlayscrollbars": "^2.2.0",
     "overlayscrollbars-react": "^0.5.0",
+    "prisma": "^4.15.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.44.2",
@@ -79,5 +85,8 @@
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "typescript": "~5.0.2"
+  },
+  "volta": {
+    "node": "18.16.0"
   }
 }
